@@ -1,0 +1,1 @@
+type getRandomName = () => string;
