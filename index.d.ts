@@ -1,1 +1,1 @@
-type getRandomName = () => string;
+type getRandomName = () => Promise<string>;
