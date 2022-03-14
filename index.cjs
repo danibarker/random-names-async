@@ -1201,10 +1201,12 @@ let names = [
   "Brock Wagner",
 ];
 
-export const getRandomName = async () => {
+const getRandomName = async () => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(names[Math.floor(Math.random() * names.length)]);
     }, 1000);
   });
 };
+
+module.exports = { getRandomName };
