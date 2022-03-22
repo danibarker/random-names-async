@@ -16,6 +16,5 @@
     ".then"
   ],
   "author": "danibarker",
-  "license": "ISC",
-  "type": "module"
+  "license": "ISC"
 }
